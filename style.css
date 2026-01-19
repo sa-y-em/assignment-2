@@ -7,3 +7,114 @@
   
   font-style: normal;
 }
+                          /* common styles */
+*{
+  margin: 0;
+  padding: 0;
+  
+
+}
+.flex{
+  display: flex;
+}
+.btn{
+  background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+  padding: 13px;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+/* text white color */
+.white{
+  color:#FFFFFF ;
+}
+
+/* header styles */
+header{
+  background-color: #1A0B2E;
+}
+#wave{
+  color:  #FB09B4
+
+  
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+  align-items: center;
+}
+.brand{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+.menu-list{
+  
+  list-style: none;
+  gap: 32px;
+}
+/* nav ends */
+
+.full-content{
+  background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
+  width: 100%;
+}
+
+/* .hero-section{
+  background-image:url(./B13-A02-TechWave/assets/hero-bg.png);
+  width: 100%;
+
+} */
+#circle{
+  position: relative;
+  left: 625px;
+  top: 101px;
+  
+}
+#microphone{
+  position: relative;
+  left: 390px;
+  top: 5px;
+}
+#new{
+  background-color: #00FF88;
+  padding:10px ;
+  border-radius: 20px;
+  position: relative;
+  left: 430px;
+  top: -200px;
+}
+.hero-content h3{
+  margin-top: 90px;
+  font-size: 4rem;
+  margin-bottom: 8px;
+  
+}
+.hero-content{
+  text-align: center;
+  margin-left: 60px;
+}
+.hero-content p{
+  margin-bottom: 24px;
+}
+#button-spotify{
+  margin-top: px;
+  margin-right: 10px;
+}
+#subs-button{
+  background: transparent;
+  color: #00FF88;
+  padding: 16px;
+  border-color: #00FF88;
+  border-radius: 20px;
+}
+#message{
+  margin-right: 8px;
+}
+
+
+
+
+
+
