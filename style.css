@@ -23,6 +23,13 @@
   font-size: 1rem;
   border-radius: 15px;
 }
+.grid-color{
+  background-color:rgba(53, 17, 101, 0.4);
+  padding: 40px;
+   border-radius: 48px;
+}
+
+
 /* text white color */
 .white{
   color:#FFFFFF ;
@@ -153,6 +160,107 @@ header{
 .card p{
   font-size: 1rem;
 }
+/* third page start here */
+
+
+#thunder{
+  width: 60px;
+  height: 60px;
+}
+
+.third-page{
+  background-color: 
+rgba(35, 14, 61, 1);
+padding: 120px 200px;
+
+}
+.third-page div h3{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+
+
+.headphone{
+  grid-area: headphone;
+}
+.mobile{
+  grid-area: mobile;
+}
+.global{
+  grid-area: global;
+}
+.thunder{
+  grid-area: thunder;
+}
+.book{
+  grid-area: book;
+}
+
+.grid-content{
+  
+  gap: 30px;
+  
+  display: grid;
+  
+  grid-template-areas: "headphone mobile mobile"
+                       "headphone global global"
+                       "thunder thunder book";
+  
+  
+}
+.grid-content img{
+  margin-bottom: 16px;
+}
+.grid-content h4{
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+.grid-content p{
+  
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+/* featured episode page starts here */
+.featured-episode{
+  background-color: #1A0B2E;
+  padding: 120px 200px;
+}
+.featured-episode h2{
+  font-size: 3rem;
+  text-align: center;
+}
+.featured-card{
+  display: flex;
+  gap: 30px;
+}
+/* some shared style */
+.featured-card-styles{
+  border-radius: 24px;
+  border: 1px solid rgba(37, 13, 68, 1);
+  
+  background-color: rgba(37, 13, 68, 1);;
+}
+.featured-card div div{
+  padding: 24px;
+}
+.featured-card div div h3{
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+.featured-p{
+  font-size: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.featured-clock{
+  color: #00FF88;
+}
+
+
+
 
 
 
