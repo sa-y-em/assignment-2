@@ -94,6 +94,7 @@ header{
 .hero-content{
   text-align: center;
   margin-left: 60px;
+  padding-bottom: 101px;
 }
 .hero-content p{
   margin-bottom: 24px;
@@ -111,6 +112,46 @@ header{
 }
 #message{
   margin-right: 8px;
+}
+/* first page ends here */
+
+
+/* second page start  here */
+.second-page{
+  background-color: #1A0B2E;
+}
+.second-page-content{
+  text-align: center;
+}
+.second-page-content h3{
+  font-size: 3rem;
+  margin-bottom: 16px;
+
+}
+.second-page-content p{
+  font-size: 1rem;
+  
+
+}
+#second-page-p{
+  margin-top: 50px;
+  margin-bottom: 160px;
+}
+.card{
+  display: flex;
+  margin-top: 80px;
+  gap: 80px;
+  justify-content: center;
+  padding-bottom: 150px;
+
+}
+.card h3{
+  font-size: 3rem;
+  color:#00FF88;
+  margin-bottom: 16px;
+}
+.card p{
+  font-size: 1rem;
 }
 
 
