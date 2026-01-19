@@ -23,6 +23,10 @@
   font-size: 1rem;
   border-radius: 15px;
 }
+.btn:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
 .grid-color{
   background-color:rgba(53, 17, 101, 0.4);
   padding: 40px;
@@ -125,6 +129,9 @@ header{
 #message{
   margin-right: 8px;
 }
+#subs-button:hover{
+  transform: scale(1.1);
+}
 /* first page ends here */
 
 
@@ -216,6 +223,9 @@ padding: 120px 200px;
   
   
 }
+.grid-color:hover{
+  background-color: rgb(158, 173, 137);
+}
 .grid-content img{
   margin-bottom: 16px;
 }
@@ -241,8 +251,14 @@ padding: 120px 200px;
   
   gap: 30px;
 }
+.featured-card-styles:hover{
+    transform: rotate(5deg);
+
+}
+
 /* some shared style */
 .featured-card-styles{
+  
   border-radius: 24px;
   border: 1px solid rgba(37, 13, 68, 1);
   
@@ -281,6 +297,9 @@ padding: 120px 200px;
   background-color:  rgba(53, 17, 101, 0.4);
   border-radius: 40px;
   padding: 40px;
+}
+.feature-footer:hover{
+  background-color: rgb(158, 173, 137);
 }
 #bio-data{
   text-align: start;
