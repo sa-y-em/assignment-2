@@ -32,15 +32,20 @@
 
 /* text white color */
 .white{
-  color:#FFFFFF ;
+  color:#FFFFFF;
+  font-size: 1rem;
 }
 
 /* header styles */
 header{
   background-color: #1A0B2E;
 }
-#wave{
-  color:  #FB09B4
+.tech{
+  font-size: 3rem;
+}
+.wave{
+  color:  #FB09B4;
+  font-size: 3rem;
 
   
 }
@@ -297,6 +302,34 @@ padding: 120px 200px;
 }
 .icons{
   gap: 10px;
+}
+/* footer styles */
+footer{
+  background-image: url(./B13-A02-TechWave/assets/footer-bg.png);
+  text-align: center;
+  height: 412px;}
+.footer-tech{
+  font-size: 5rem;
+}
+.footer-wave{
+  color:  #FB09B4;
+  font-size: 5rem;
+
+  
+}
+
+footer>h3{
+  padding-top: 120px;
+  padding-bottom: 5px;
+}
+.footer-icons{
+  justify-content: center;
+  gap: 40px;
+ 
+}
+.icon-p{
+  gap: 2px;
+  margin-bottom: 32px;
 }
 
 
