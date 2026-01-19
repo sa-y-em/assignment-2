@@ -45,7 +45,7 @@ header{
   
 }
 .nav{
-  display: flex;
+  
   justify-content: space-around;
   text-align: center;
   
@@ -145,7 +145,7 @@ header{
   margin-bottom: 160px;
 }
 .card{
-  display: flex;
+  
   margin-top: 80px;
   gap: 80px;
   justify-content: center;
@@ -228,12 +228,12 @@ padding: 120px 200px;
   background-color: #1A0B2E;
   padding: 120px 200px;
 }
-.featured-episode h2{
+.featured-episode>h2{
   font-size: 3rem;
   text-align: center;
 }
 .featured-card{
-  display: flex;
+  
   gap: 30px;
 }
 /* some shared style */
@@ -258,7 +258,46 @@ padding: 120px 200px;
 .featured-clock{
   color: #00FF88;
 }
-
+/* .......meet the host styles......... */
+.meet-host{
+  margin-top: 120px;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.feature-footer div h2{
+  font-size: 2rem;
+  margin-bottom: 16px;
+  
+}
+.feature-footer{
+  
+  gap: 24px;
+  background-color:  rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+}
+#bio-data{
+  text-align: start;
+}
+#bio-data>p{
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+.icon-circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(83, 60, 114, 1);
+  
+}
+.icon-circle img{
+  padding: 12px;
+}
+.icons{
+  gap: 10px;
+}
 
 
 
