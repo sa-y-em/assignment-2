@@ -11,7 +11,11 @@
 *{
   margin: 0;
   padding: 0;
-  
+  .hide{
+    display: none;
+  }
+
+
 
 }
 .flex{
@@ -51,7 +55,11 @@ header{
   color:  #FB09B4;
   font-size: 3rem;
 
+
   
+}
+.hamburger-menu{
+  display: none;
 }
 .nav{
   
@@ -74,6 +82,8 @@ header{
 
 .full-content{
   background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
+  background-repeat: no-repeat;
+  
   width: 100%;
 }
 
@@ -82,18 +92,18 @@ header{
   width: 100%;
 
 } */
-#circle{
+.circle{
   position: relative;
   left: 625px;
   top: 101px;
   
 }
-#microphone{
+.microphone{
   position: relative;
   left: 390px;
   top: 5px;
 }
-#new{
+.new{
   background-color: #00FF88;
   padding:10px ;
   border-radius: 20px;
@@ -351,6 +361,125 @@ footer>h3{
   margin-bottom: 32px;
 }
 
+/* Small device: up to 576 px
+Medium Device: 576px to 992 px (Optional) */
+
+@media screen and (max-width: 576px) {
+  .flex{
+    flex-direction: column;
+    
+  }
+  /* header section */
+  .menu-items{
+    display: none;
+  }
+  .hamburger-menu{
+    display: contents;
+  }
+
+ /* second page */
+ .second-page-content{
+  padding: 5px;
+}
+
+.card{
+  
+  padding: 40px 20px;
+  gap: 40px;
+  justify-content: center;
+  
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+
+}
+/* third page */
+.third-page{
+  background-color: 
+rgba(35, 14, 61, 1);
+padding: 40px 20px;
+
+}
+.third-page div h3{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-content{
+  
+  gap: 16px;
+  
+  display: flex;
+ flex-direction: column;
+  
+  
+}
+
+/* featured episodes */
+.featured-episode{
+  
+  padding: 40px 20px;
+}
+.featured-episode>h2{
+  margin-bottom: 24px;
+}
+
+.featured-card{
+  
+  gap: 16px;
+}
+.featured-card-styles:hover{
+    transform: rotate(2deg);
+
+}
+.featured-card-styles>iframe{
+    width: 100%;
+
+}
+
+/* some shared style */
+
+.featured-card div div{
+  padding: 16px;
+}
+.featured-card div div h3{
+  margin-bottom: 8px;
+}
+.featured-p{
+  margin-bottom: 8px;
+}
+/* meet the host */
+.meet-host{
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+.feature-footer{
+  
+  gap: 16px;
+  padding: 24px;
+}
+
+.icon-circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(83, 60, 114, 1);
+  
+}
+
+.icons{
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+}
+
+
+  
+}
+@media screen and (min-width:577px) and (max-width: 992px) {
+  
+}
 
 
 
