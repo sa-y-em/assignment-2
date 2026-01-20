@@ -370,13 +370,51 @@ Medium Device: 576px to 992 px (Optional) */
     
   }
   /* header section */
+  .nav{
+    flex-direction: row;
+    
+  }
   .menu-items{
     display: none;
   }
   .hamburger-menu{
     display: contents;
+    
   }
+/* ssssssss */
+.full-content{
+  background-repeat: no-repeat;
+  
+  width: 100%;
+}
 
+/* .hero-section{
+  background-image:url(./B13-A02-TechWave/assets/hero-bg.png);
+  width: 100%;
+
+} */
+.circle{
+  position: relative;
+  width: 20%;
+  left: 190px;
+  top: 99px;
+  
+}
+.microphone{
+  width: 10%;
+  position: relative;
+  left: 112px;
+  top: 90px;
+}
+.new{
+  background-color: #00FF88;
+  padding:10px ;
+  border-radius: 20px;
+  position: relative;
+  
+  left: 100px;
+  top: 20px;
+}
  /* second page */
  .second-page-content{
   padding: 5px;
@@ -472,6 +510,44 @@ padding: 40px 20px;
   flex-direction: row;
   gap: 8px;
   justify-content: center;
+}
+/* footer section */
+footer{
+
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  height: 100%;
+}
+.footer-tech{
+  font-size: 3rem;
+}
+.footer-wave{
+  font-size: 3rem;
+
+  
+}
+
+footer>h3{
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+.footer-icons{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+
+  gap: 2px;
+ 
+}
+.icon-p{
+  gap: 2px;
+  padding-bottom: 2px;
+}
+.footer-icons div img{
+  justify-content: center;
+  align-items: center;
+  width: 10%;
 }
 
 
