@@ -381,39 +381,49 @@ Medium Device: 576px to 992 px (Optional) */
     display: contents;
     
   }
-/* ssssssss */
+/* header background */
 .full-content{
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   
-  width: 100%;
+  
 }
+
 
 /* .hero-section{
   background-image:url(./B13-A02-TechWave/assets/hero-bg.png);
   width: 100%;
 
 } */
-.circle{
+
+.circle{ 
+  width: 40%;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  width: 20%;
-  left: 190px;
-  top: 99px;
-  
+  left: auto;
+  right: -100px;
 }
 .microphone{
-  width: 10%;
+  width: 15%;
   position: relative;
-  left: 112px;
-  top: 90px;
+  left: auto;
+  top: 60px;
+  right: auto;
+  
+ 
 }
+
 .new{
   background-color: #00FF88;
   padding:10px ;
   border-radius: 20px;
   position: relative;
+  left: auto;
+  top: 1px;
   
-  left: 100px;
-  top: 20px;
+  
 }
  /* second page */
  .second-page-content{
